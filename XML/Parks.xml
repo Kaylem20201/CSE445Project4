@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parks>
+    <Park type="Natural">
+        <Name>Yellowstone</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>Wyoming</NeighboringStates>
+        <NeighboringStates>Montana</NeighboringStates>
+        <NeighboringStates>Idaho</NeighboringStates>
+        <EstablishedIn Founder="Ferdinand V. Hayden">1872</EstablishedIn>
+        <Reservation>
+            <Address>2 Officers Row
+Yellowstone National Park Headquarters
+Yellowstone National Park, WY 82190</Address>
+            <Url>https://www.nps.gov/yell/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Sequoia</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>California</NeighboringStates>
+        <EstablishedIn Founder="Benjamin Harrison">1890</EstablishedIn>
+        <Reservation>
+            <Address>47050 Generals Highway
+Three Rivers, CA 93271</Address>
+            <Url>https://www.nps.gov/seki/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Yosemite</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>California</NeighboringStates>
+        <EstablishedIn>1890</EstablishedIn>
+        <Reservation>
+            <Address>Groveland, CA 95321</Address>
+            <Url>https://www.nps.gov/yose/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Mount Rainer</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>Washington</NeighboringStates>
+        <EstablishedIn>1899</EstablishedIn>
+        <Reservation>
+            <Address>55210 238th Avenue East
+Ashford, WA 98304</Address>
+            <Url>https://www.nps.gov/mora/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Crater Lake</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>Oregon</NeighboringStates>
+        <EstablishedIn Founder="William Gladstone Steel">1902</EstablishedIn>
+        <Reservation>
+            <Address>Crater Lake National Park
+1 Sager Building
+Crater Lake, OR 97604</Address>
+            <Url>https://www.nps.gov/crla/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Wind Cave</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>South Dakota</NeighboringStates>
+        <EstablishedIn Founder="Jesse D. McDonald">1903</EstablishedIn>
+        <Reservation>
+            <Address>26611 US Highway 385
+Hot Springs, SD 57747</Address>
+            <Url>https://www.nps.gov/wica/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Cultural">
+        <Name>Mesa Verde</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>South Dakota</NeighboringStates>
+        <EstablishedIn>1906</EstablishedIn>
+        <Reservation>
+            <Address>Mile .7 Headquarters Loop Road
+Mesa Verde National Park, CO 81330</Address>
+            <Url>https://www.nps.gov/meve/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Glacier</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>Montana</NeighboringStates>
+        <EstablishedIn>1910</EstablishedIn>
+        <Reservation>
+            <Address>64 Grinnell Drive
+Glacier National Park Headquarters
+West Glacier, MT 59936</Address>
+            <Url>https://www.nps.gov/glac/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Rocky Mountain</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>Colorado</NeighboringStates>
+        <EstablishedIn>1915</EstablishedIn>
+        <Reservation>
+            <Address>1000 US Hwy 36
+Estes Park, CO 80517</Address>
+            <Url>https://www.nps.gov/romo/index.htm</Url>
+        </Reservation>
+    </Park>
+    <Park type="Natural">
+        <Name>Hawai'i Volcanoes</Name>
+        <Owner>U.S. National Park Service</Owner>
+        <NeighboringStates>Hawaii</NeighboringStates>
+        <EstablishedIn>1916</EstablishedIn>
+        <Reservation>
+            <Address>1 Crater Rim Drive
+Hawaii National Park, HI 96718</Address>
+            <Url>https://www.nps.gov/havo/index.htm</Url>
+        </Reservation>
+    </Park>
+</Parks>

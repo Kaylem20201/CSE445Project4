@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Parks">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="Park" />
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Park">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="Owner" type="xs:string"/>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="EstablishedIn" />
+            <xs:element name="Reservation" />
+            <xs:element name="NeighboringStates" type="xs:string" />
+        </xs:all>
+        <xs:attribute name="type" type="xs:string" use="required"/> 
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="EstablishedIn">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="Founder" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Reservation">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="Address" type="xs:string" minOccurs="1" />
+            <xs:element name="Url" type="xs:string" />
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema> 
