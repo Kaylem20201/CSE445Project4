@@ -3,24 +3,23 @@
 
 <xs:element name="Parks">
     <xs:complexType>
-        <xs:all>
-            <xs:element name="Park" />
-        </xs:all>
+        <xs:sequence>
+          <xs:element name="Park" maxOccurs="unbounded">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="1" />
+                <xs:element name="Owner" type="xs:string" minOccurs="1" />
+                <xs:element name="NeighboringStates" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="EstablishedIn" minOccurs="1" />
+                <xs:element name="Reservation" minOccurs="1" />
+              </xs:sequence>
+              <xs:attribute name="type" type="xs:string" use="required"/>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
     </xs:complexType>
 </xs:element>
 
-<xs:element name="Park">
-    <xs:complexType>
-        <xs:all>
-            <xs:element name="Owner" type="xs:string"/>
-            <xs:element name="Name" type="xs:string"/>
-            <xs:element name="EstablishedIn" />
-            <xs:element name="Reservation" />
-            <xs:element name="NeighboringStates" type="xs:string" />
-        </xs:all>
-        <xs:attribute name="type" type="xs:string" use="required"/> 
-    </xs:complexType>
-</xs:element>
 
 <xs:element name="EstablishedIn">
     <xs:complexType>
@@ -34,10 +33,10 @@
 
 <xs:element name="Reservation">
     <xs:complexType>
-        <xs:all>
-            <xs:element name="Address" type="xs:string" minOccurs="1" />
-            <xs:element name="Url" type="xs:string" />
-        </xs:all>
+        <xs:sequence>
+            <xs:element name="Address" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="Url" type="xs:string" minOccurs="1" />
+        </xs:sequence>
     </xs:complexType>
 </xs:element>
 
