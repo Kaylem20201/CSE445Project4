@@ -1,0 +1,7 @@
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\bin\Services.dll.config
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\bin\Services.dll
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\bin\Services.pdb
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\obj\Debug\Services.dll
+C:\Users\Kaylem\Source\Repos\CSE445Project4\Services\obj\Debug\Services.pdb
